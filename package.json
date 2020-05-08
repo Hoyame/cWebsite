@@ -1,7 +1,9 @@
 {
   "name": "app-react-ts-template",
   "version": "1.0.0",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,6 +26,7 @@
   "dependencies": {
     "development": "0.0.6",
     "html-webpack-plugin": "^4.3.0",
+    "node-sass": "^4.14.1",
     "path": "^0.12.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
