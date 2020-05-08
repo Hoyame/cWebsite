@@ -1,0 +1,32 @@
+{
+  "name": "app-react-ts-template",
+  "version": "1.0.0",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack-dev-server": "webpack-dev-server",
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^7.0.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "development": "0.0.6",
+    "html-webpack-plugin": "^4.3.0",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
