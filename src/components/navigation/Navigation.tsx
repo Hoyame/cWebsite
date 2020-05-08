@@ -12,7 +12,7 @@ class Navigation extends Component {
         <ul className="navbar-nav mr-auto">
           <li><Link to={'/'} className="nav-link"> About </Link></li>
           <li><Link to={'/competences'} className="nav-link">Competences</Link></li>
-          <li><Link to={'/about'} className="nav-link">Contact</Link></li>
+          <li><Link to={'/contact'} className="nav-link">Contact</Link></li>
         </ul>
       </nav>
     );
