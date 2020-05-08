@@ -2,9 +2,9 @@ import * as React from 'react';
 import { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
-import About from './about/about';
-import Competences from './competences/competences';
-import Contact from './contact/contact';
+import About from './pages/about/about';
+import Competences from './pages/competences/competences';
+import Contact from './pages/contact/contact';
 
 class Routes extends Component {
   render() {
