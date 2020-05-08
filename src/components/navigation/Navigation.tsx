@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Component } from 'react';
 
-import './Navigation.scss'
+import './navigation.scss'
 
 class Navigation extends Component {
   render() {
