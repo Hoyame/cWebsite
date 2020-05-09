@@ -1,55 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    background-color: #202020; 
+    font-family: 'Jost', sans-serif;
+}
+
 .nav {
-    padding: 0 1.5rem;
-    height: 55px;
-    max-width: $width;
-    margin: auto;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    transition: height 0.3s ease;
 }
 
 .nav-container {
-    padding: 0 1.5rem;
-    height: 55px;
-    max-width: $width;
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    transition: height 0.3s ease;
 }
 
 .nav-text {
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 1.05rem;
+    color: rgba(236, 236, 236, 0.836);
+    font-size: 0.90rem;
+    margin-right: 125px;
+}
+
+.nav-button:hover {
+    background-color: rgba(22, 21, 21, 0.589);
+    color: rgba(236, 236, 236, 0.836);
+}
+
+.nav-button {
+    font-size: 0.90rem;
+    text-decoration: none;
+    padding: .50rem;
+    margin: 0 .25rem;
+    color: rgb(114, 110, 110);
+    line-height: 4.5;
+    text-align: center;
+    border-radius: 6px;
 
 }
 
-.nav-buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    margin: 0;
-
-    a {
-        display: flex;
-        align-items: center;
-        font-size: 1.05rem;
-        font-weight: 400;
-        padding: 0.75rem;
-        margin: 0 .25rem;
-        color: rgba(0, 0, 0, 0.6);
-        line-height: 1.2;
-        text-align: center;
-        border-radius: $border-radius;
-
-        &:hover,
-        &.active {
-          color: #111;
-          background: rgba(0, 0, 0, 0.05);
-        }
-    }
-}

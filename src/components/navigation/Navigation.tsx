@@ -16,11 +16,13 @@ class Navigation extends Component {
           </div>
 
           <div className = "nav-buttons">
-            <ul className = "">
-              <a><Link to={'/'} className=""> About </Link></a>
-              <a><Link to={'/competences'} className=""> Competences </Link></a>
-              <a><Link to={'/contact'} className=""> Contact </Link></a>
-            </ul>
+            <div className = "nav-links">
+              <ul className = "">
+                <a><Link to={'/'} className="nav-button"> About </Link></a>
+                <a><Link to={'/competences'} className="nav-button"> Competences </Link></a>
+                <a><Link to={'/contact'} className="nav-button"> Contact </Link></a>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>

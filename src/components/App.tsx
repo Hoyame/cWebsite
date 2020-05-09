@@ -10,8 +10,8 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Navigation />  
-          <hr />
+          <Navigation /> 
+          <div></div> 
           <Routes />
         </div>
       </Router>
