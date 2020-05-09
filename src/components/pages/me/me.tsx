@@ -10,7 +10,7 @@ class Me extends Component {
           <article className="presentation">
             <div className="summary">
               <h2 className="summary-text">Yo, c'est moi 🙃</h2>
-              <p>fzefz</p>
+              <p className = "summary-text-p">fzefzfzefzfzefzfzefzfzefzfzefz</p>
             </div>
             <div className = "me-box">
               <img src="https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256" className = "me-box-avatar" alt="Hoyame"></img>
