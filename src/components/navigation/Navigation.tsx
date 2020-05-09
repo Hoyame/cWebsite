@@ -12,13 +12,13 @@ class Navigation extends Component {
         <div className = "nav-container">
 
           <div>
-            <span className = "nav-text">Hoyame Zouhari</span>
+            <a><Link to={'/'} className="nav-text">Hoyame Zouhari</Link></a>
           </div>
 
           <div className = "nav-buttons">
             <div className = "nav-links">
               <ul className = "">
-                <a><Link to={'/'} className="nav-button"> About </Link></a>
+                <a><Link to={'/about'} className="nav-button"> About </Link></a>
                 <a><Link to={'/competences'} className="nav-button"> Competences </Link></a>
                 <a><Link to={'/contact'} className="nav-button"> Contact </Link></a>
               </ul>
