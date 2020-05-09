@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import Routes from './routes'
 import Navigation from './navigation/navigation'
+import './App.scss'
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
       <Router>
         <div>
           <Navigation /> 
-          <div></div> 
+          <div className = "app-nav-separator"></div> 
           <Routes />
         </div>
       </Router>

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    font-family: 'Jost', sans-serif;
+}
+
+.pages-body {
+    //margin-left: 30%;
+    //margin-right: 30%;
+    color: white;
+}
+
+.me-h2-title {
+    
+    margin-left: 30%;
+    margin-right: 56%;
+}
+
+.me-box {
+    margin-top: -54px;
+    margin-left: 55.5%;
+    border-radius: 2.5%;
+    height: 250px;
+    width: 175px;
+    background-color: rgba(22, 21, 21, 0.589);
+}
+
+.me-box-avatar {
+    margin-top: 40px;
+    margin-left: 22%;
+
+    border-radius: 50%;
+    width: 100px;
+}
+
+.me-box-name {
+    background-color: #20202000;
+    text-align: center;
+}
+
+.me-box-name2 {
+    background-color: #20202000;
+    color: #504e4ec5;
+    margin-top: -15px;
+    text-align: center;
+}
