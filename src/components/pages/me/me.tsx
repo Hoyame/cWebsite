@@ -9,7 +9,7 @@ class Me extends Component {
       <div className="pages-body">
           <article className="presentation">
             <div className="summary">
-              <h2 className="">Yo, c'est moi 🙃</h2>
+              <h2 className="summary-text">Yo, c'est moi 🙃</h2>
               <p>fzefz</p>
             </div>
             <div className = "me-box">

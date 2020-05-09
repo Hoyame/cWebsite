@@ -11,6 +11,8 @@
 }
 
 .me-box {
+    margin-top: 50px;
+
     border-radius: 2.5%;
     height: 250px;
     width: 175px;
@@ -22,10 +24,16 @@
 }
 
 .summary {
+    margin-top: 14.5px;
+
     flex: 1;
     flex-direction: column;
     justify-content: center;
     display: flex;
+}
+
+.summary-text {
+    margin-top: -100px;
 }
 
 .me-box-avatar {
