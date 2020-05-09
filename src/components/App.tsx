@@ -10,9 +10,8 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div>
-          <Navigation /> 
-          <div className = "app-nav-separator"></div> 
+        <div className="container">
+          <Navigation />
           <Routes />
         </div>
       </Router>

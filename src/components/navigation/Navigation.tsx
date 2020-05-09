@@ -8,23 +8,13 @@ import './navigation.scss'
 class Navigation extends Component {
   render() {
     return (
-      <nav className = "nav">
-        <div className = "nav-container">
-
-          <div>
-            <a><Link to={'/'} className="nav-text">Hoyame Zouhari</Link></a>
-          </div>
-
-          <div className = "nav-buttons">
-            <div className = "nav-links">
-              <ul className = "">
-                <a><Link to={'/about'} className="nav-button"> About </Link></a>
-                <a><Link to={'/competences'} className="nav-button"> Competences </Link></a>
-                <a><Link to={'/contact'} className="nav-button"> Contact </Link></a>
-              </ul>
-            </div>
-          </div>
-        </div>
+      <nav className="nav">
+        <Link to={'/'} className="nav-text">Hoyame Zouhari</Link>
+        <ul className="nav-links">
+          <Link to={'/about'} className="nav-button">About</Link>
+          <Link to={'/competences'} className="nav-button">Competences</Link>
+          <Link to={'/contact'} className="nav-button">Contact</Link>
+        </ul>
       </nav>
     );
   }
