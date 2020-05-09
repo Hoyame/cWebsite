@@ -5,29 +5,27 @@
 }
 
 .pages-body {
-    //margin-left: 30%;
-    //margin-right: 30%;
-    display: flex;
-
+    max-width: 600px;
     margin: auto;
-    display: flex;
-    align-items: center;
     color: white;
 }
 
-.me-h2-title {
-    
-    margin-left: 30%;
-    margin-right: 56%;
-}
-
 .me-box {
-    margin-top: -54px;
-    margin-left: 55.5%;
     border-radius: 2.5%;
     height: 250px;
     width: 175px;
     background-color: rgba(22, 21, 21, 0.589);
+}
+
+.presentation {
+    display: flex;
+}
+
+.summary {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
 }
 
 .me-box-avatar {

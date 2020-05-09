@@ -7,20 +7,17 @@
 
 .nav {
     display: flex;
-}
-
-.nav-container {
-    margin: auto;
-    display: flex;
     align-items: center;
 }
 
 .nav-text {
     color: rgba(236, 236, 236, 0.836);
     font-size: 0.90rem;
-    margin-right: 125px;
     text-decoration: none;
+}
 
+.nav-links {
+    margin-left: auto;
 }
 
 .nav-button:hover {
@@ -37,8 +34,5 @@
     line-height: 4.5;
     text-align: center;
     border-radius: 6px;
-
     transition-duration: 565ms;
-
 }
-
