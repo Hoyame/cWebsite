@@ -1,15 +1,17 @@
 import * as React from 'react';
 import { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
-import './me.scss'
+import './style/summary.scss'
+import './style/articles.scss'
 
 class Me extends Component {
   render() {
     return (
-      <div className="pages-body">
-          <article className="presentation">
-            <div className="summary">
-              <h2 className="summary-text">Yo, c'est moi 🙃</h2>
+      <div className = "pages-body">
+          <article className = "presentation">
+            <div className = "summary">
+              <h2 className = "summary-text">Yo, c'est moi 🙃</h2>
               <p className = "summary-text-p">Bienvenu sur mon portfolio, je vais essayer 
               de tout dire sur ce que je fais, ce que je suis, etc.<br></br><br></br> Bonne investigation 😊</p>
             </div>
@@ -18,6 +20,18 @@ class Me extends Component {
               <h3 className = "me-box-name">Hoyame</h3>
               <h6 className = "me-box-name2">@corazon2</h6>
             </div>
+          </article>
+
+          <article>
+            <div className = "articles">
+              <h2 className = "articles-title">📰 - Articles
+                {/* <button className = "articles-button">View All</button> */}
+                <Link to={'/about'} className="articles-button">View All</Link>
+
+              </h2>
+            </div>
+          
+
           </article>
       </div>
     );

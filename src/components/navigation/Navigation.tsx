@@ -12,10 +12,12 @@ class Navigation extends Component {
         <Link to={'/'} className="nav-text">Hoyame Zouhari</Link>
         <ul className="nav-links">
           <Link to={'/about'} className="nav-button">About</Link>
-          <Link to={'/competences'} className="nav-button">Competences</Link>
+          <Link to={'/articles'} className="nav-button">Articles</Link>
           <Link to={'/contact'} className="nav-button">Contact</Link>
         </ul>
       </nav>
+
+
     );
   }
 }

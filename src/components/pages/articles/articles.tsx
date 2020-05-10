@@ -1,16 +1,16 @@
 import * as React from 'react';
 import { Component } from 'react';
 
-import './competences.scss'
+import './articles.scss'
 
-class Competences extends Component {
+class Articles extends Component {
   render() {
     return (
         <div>
-          <h2>Competences</h2>
+          <h2>articles</h2>
         </div>
     );
   }
 }
 
-export default Competences;
+export default Articles;

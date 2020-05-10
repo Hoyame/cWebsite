@@ -10,10 +10,15 @@
     align-items: center;
 }
 
+.nav-text:hover {
+    color: rgba(255, 255, 255, 0.89);
+}
+
 .nav-text {
     color: rgba(236, 236, 236, 0.836);
     font-size: 1.25rem;
     text-decoration: none;
+    transition-duration: 565ms;
 }
 
 .nav-links {
