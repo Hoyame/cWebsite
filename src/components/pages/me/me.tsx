@@ -25,9 +25,7 @@ class Me extends Component {
           <article>
             <div className = "articles">
               <h2 className = "articles-title">📰 - Articles
-                {/* <button className = "articles-button">View All</button> */}
-                <Link to={'/articles'} className="articles-button">View All</Link>
-
+                <Link to={'/articles'} className = "articles-button">View All</Link>
               </h2>
             </div>
           
