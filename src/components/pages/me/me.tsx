@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './style/summary.scss'
 import './style/articles.scss'
 
+import ArticlesList from './component/me-articles'
+
 class Me extends Component {
   render() {
     return (
@@ -35,8 +37,17 @@ class Me extends Component {
               <h2 className = "articles-title">Articles
                 <Link to={'/articles'} className = "articles-button">View All</Link>
               </h2>
+              <ArticlesList />
             </div>
           </article>
+
+          <article>
+          <div className = "articles">
+            <h2 className = "articles-title">Open Source Projects
+              <Link to={'/articles'} className = "articles-button">View All</Link>
+            </h2>
+          </div>
+        </article>
       </div>
     );
   }

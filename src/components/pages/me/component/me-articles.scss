@@ -1,0 +1,40 @@
+.articles-container:hover {
+    background-color: rgba(56, 56, 56, 0.589);
+}
+
+.articles-container {
+    margin-top: 10px;
+    border-radius: 2.5%;
+    height: 52.5px;
+    width: 600px;
+    background-color: rgba(22, 21, 21, 0.007);
+    transition-duration: 300ms;
+    border-radius: 6px;
+}
+
+.articles-container-text {
+    margin-top: -34px;
+
+    background-color: #00000000;
+    color: #868686;
+    font-size: 20px;
+    margin-left: 58px;
+}
+
+.articles-container-img {
+    //margin-top: 40px;
+    margin-top: 15px;
+    margin-left: 18px;
+    border-radius: 50%;
+    width: 25px;
+}
+
+.articles-container-new {
+    margin-top: -48px;
+    margin-left: 535px;
+    margin-right: 15px;
+    border-radius: 6px;
+    color: #fb8600;
+    padding: .1rem 0.55rem;
+    background-color: rgba(22, 21, 21, 0.589);
+}
