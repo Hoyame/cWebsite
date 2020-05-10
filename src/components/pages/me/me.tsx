@@ -24,12 +24,18 @@ class Me extends Component {
 
           <article>
             <div className = "articles">
-              <h2 className = "articles-title">📰 - Articles
+              <h2 className = "articles-title">Open Source Projects
                 <Link to={'/articles'} className = "articles-button">View All</Link>
               </h2>
             </div>
-          
+          </article>
 
+          <article>
+            <div className = "articles">
+              <h2 className = "articles-title">Articles
+                <Link to={'/articles'} className = "articles-button">View All</Link>
+              </h2>
+            </div>
           </article>
       </div>
     );
