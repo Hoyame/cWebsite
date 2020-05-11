@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Component, useState } from 'react';
 
-import articlesPropsList from '../../../data/articles'
+import articlesPropsList from '../../../data/me/articles'
 import './me-articles.scss'
 
 export interface ArticlesProps {
