@@ -4,6 +4,8 @@ import { Component } from 'react';
 import './page.scss'
 import '../opensource.scss'
 
+let imgTest = "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256"
+
 interface IPageOpenSource {
    title?: string,
    img?: any,
@@ -12,9 +14,9 @@ interface IPageOpenSource {
 }
 
 const PageOpenSourceProps : IPageOpenSource[] = [
-   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
-   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
-   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Repo 1', img: imgTest, description: "Description du repo 1", new: true },
+   { title: 'Repo 2', img: imgTest, description: "Description du repo 2", new: true },
+   { title: 'Repo 3', img: imgTest, description: "Description du repo 3", new: true },
 ]
 
 /////////////////////////////////////////////////////

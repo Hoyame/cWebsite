@@ -4,11 +4,6 @@
    color: rgba(236, 236, 236, 0.836);
 }
 
-.opensource-head-container:hover {
-   background-color: rgba(56, 56, 56, 0.589);
-   cursor: pointer;
-}
-
 .opensource-head-container {
    border-radius: 2.5%;
    height: 100px;
@@ -25,22 +20,22 @@
    background-color: #00000000;
    color: #868686;
    font-size: 20px;
-   margin-left: 95px;
+   margin-left: 102.5px;
    font-weight: 600;
-}
-
-.opensource-head-container-link {
-   background-color: #00000000;
-   margin-top: -25px;
-   margin-left: 95px;
-   font-size: 15px;
-   color: #4b4b4b;
 }
 
 .opensource-head-container-id {
    background-color: #00000000;
-   margin-top: -20px;
-   margin-left: 95px;
+   margin-top: -25px;
+   margin-left: 102.5px;
+   font-size: 15px;
+   color: #4b4b4b;
+}
+
+.opensource-head-container-link {
+   background-color: #00000000;
+   margin-top: -17.5px;
+   margin-left: 102.5px;
    font-size: 12.5px;
    color: #4b4b4bbd;
 }
@@ -53,3 +48,12 @@
    width: 70px;
 }
 
+.opensource-head-container-new {
+   margin-top: -75px;
+   margin-left: 420px;
+   margin-right: 15px;
+   border-radius: 6px;
+   color: #fb8600;
+   padding: .1rem 0.55rem;
+   background-color: rgba(22, 21, 21, 0.589);
+}
