@@ -4,14 +4,6 @@ export interface OpenSourceProps {
     new?: boolean
 }
 
-export const OpenSourcePropsList : OpenSourceProps[] = [
-    { emoji: "💌", title: "OC Projet 1", new: true },
-    { emoji: "🤣", title: "OC Projet 2" },
-    { emoji: "😅", title: "OC Projet 3" },
-]
-
-//
-
 export interface PageOpenSourceProps {
     emoji: any,
     title: string,
@@ -19,6 +11,14 @@ export interface PageOpenSourceProps {
     description?: string,
     link?: string
 }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+export const OpenSourcePropsList : OpenSourceProps[] = [
+    { emoji: "💌", title: "OC Projet 1", new: true },
+    { emoji: "🤣", title: "OC Projet 2" },
+    { emoji: "😅", title: "OC Projet 3" },
+]
 
 export const PageOpenSourcePropsList : PageOpenSourceProps[] = [
     { emoji: "💌", title: "OC Projet 1", new: true },
