@@ -8,7 +8,7 @@ class Articles extends Component {
   render() {
     return (
         <div>
-          <h1 className = "articles-title">Articles</h1>
+          <h1 className = "page-articles-title">Articles</h1>
 
           <PageArticlesList />
         </div>

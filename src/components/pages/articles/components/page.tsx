@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Component } from 'react';
 
 import './page.scss'
+import '../articles.scss'
 
 interface IPageArticles {
    title?: string,
@@ -11,9 +12,43 @@ interface IPageArticles {
 }
 
 const PageArticlesProps : IPageArticles[] = [
-   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "" },
-   { title: 'Article 2', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "" },
-   { title: 'Article 3', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "" }
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
+   { title: 'Article 1', img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", description: "Azertruyehugbureybguyerbguerbgurebguyebgb", new: true },
 ]
 
 /////////////////////////////////////////////////////
@@ -23,10 +58,11 @@ const IPageArticles: React.FC<IPageArticles> = (props: IPageArticles) => {
    return ( 
       <div>
          <a>
-            <div className = "articles-container">
-               <img src = {props.img} className = "articles-container-img"></img>
-               <p className = "articles-container-text">{props.title}</p>
-               {props.new ? <div className = "articles-container-new">New</div> : false}
+            <div className = "page-articles-container">
+               <img src = {props.img} className = "page-articles-container-img"></img>
+               <p className = "page-articles-container-text">{props.title}</p>
+               {props.description ? <p className = "page-articles-container-description">{props.description}</p> : false}
+               {props.new ? <div className = "page-articles-container-new">New</div> : false}
             </div>
          </a>
       </div>
