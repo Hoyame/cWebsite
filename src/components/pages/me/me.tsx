@@ -28,19 +28,19 @@ class Me extends Component {
 
           <article>
             <div className = "articles">
-              <h2 className = "articles-title">Open Source Projects
-                <Link to={'/opensource'} className = "articles-button">View All</Link>
-              </h2>
-            </div>
-            <OpenSourceList />
-          </article>
-
-          <article>
-            <div className = "articles">
               <h2 className = "articles-title">Articles
                 <Link to={'/articles'} className = "articles-button">View All</Link>
               </h2>
               <ArticlesList />
+            </div>
+          </article>
+
+          <article>
+            <div className = "articles">
+              <h2 className = "articles-title">Open Source Projects
+                <Link to={'/opensource'} className = "articles-button">View All</Link>
+              </h2>
+              <OpenSourceList />
             </div>
           </article>
 
