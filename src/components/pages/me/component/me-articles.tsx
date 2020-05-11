@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Component, useState } from 'react';
 
+import articlesPropsList from '../../../data/articles'
 import './me-articles.scss'
 
 export interface ArticlesProps {
@@ -8,12 +9,6 @@ export interface ArticlesProps {
     title: string,
     new?: boolean
 }
-
-const articlesPropsList : ArticlesProps[] = [
-    { img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", title: "Projet 1", new: true },
-    { img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", title: "Projet 2" },
-    { img: "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256", title: "Projet 3" },
-]
 
 const IArticles: React.FC<ArticlesProps> = (props: ArticlesProps) => {  
     return ( 

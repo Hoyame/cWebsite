@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Component, useState } from 'react';
 
+import OpenSourcePropsList from '../../../data/opensource'
 import './me-opensource.scss'
 
 export interface OpenSourceProps {
@@ -8,12 +9,6 @@ export interface OpenSourceProps {
     title: string,
     new?: boolean
 }
-
-const OpenSourcePropsList : OpenSourceProps[] = [
-    { emoji: "💌", title: "OC Projet 1", new: true },
-    { emoji: "🤣", title: "OC Projet 2" },
-    { emoji: "😅", title: "OC Projet 3" },
-]
 
 const IOpenSource: React.FC<OpenSourceProps> = (props: OpenSourceProps) => {  
     return ( 
