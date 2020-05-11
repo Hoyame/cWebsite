@@ -6,6 +6,8 @@ import './style/summary.scss'
 import './style/articles.scss'
 
 import ArticlesList from './component/me-articles'
+import OpenSourceList from './component/me-opensource'
+
 
 class Me extends Component {
   render() {
@@ -30,6 +32,7 @@ class Me extends Component {
                 <Link to={'/articles'} className = "articles-button">View All</Link>
               </h2>
             </div>
+            <OpenSourceList />
           </article>
 
           <article>

@@ -1,8 +1,8 @@
-.articles-container:hover {
+.opensource-container:hover {
     background-color: rgba(56, 56, 56, 0.589);
 }
 
-.articles-container {
+.opensource-container {
     margin-top: 10px;
     border-radius: 2.5%;
     height: 52.5px;
@@ -10,33 +10,40 @@
     background-color: rgba(22, 21, 21, 0.007);
     transition-duration: 300ms;
     border-radius: 6px;
-
 }
 
-.articles-container-text {
-    margin-top: -34px;
-
+.opensource-container-text {
+    margin-top: -56px;
     background-color: #00000000;
     color: #868686;
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 58px;
     font-weight: 600;
 }
 
-.articles-container-img {
-    //margin-top: 40px;
-    margin-top: 15px;
-    margin-left: 18px;
-    border-radius: 50%;
-    width: 25px;
+.opensource-container-img {
+    margin-top: 8px;
+    margin-left: 12px;
+    font-size: 26px;
+    display: inline-block;
+
+    background-color: #00000000;
+
 }
 
-.articles-container-new {
-    margin-top: -48px;
+.opensource-container-new {
+    margin-top: -42px;
     margin-left: 535px;
     margin-right: 15px;
     border-radius: 6px;
     color: #fb8600;
     padding: .1rem 0.55rem;
     background-color: rgba(22, 21, 21, 0.589);
+}
+
+.opensource-separator {
+    margin-top: 0.5px;
+    height: 0.2px;
+    width: 500px;
+    background-color: #fff;
 }
