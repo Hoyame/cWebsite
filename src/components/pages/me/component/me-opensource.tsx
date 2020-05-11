@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { Component, useState } from 'react';
 
-import OpenSourcePropsList from '../../../data/me/opensource'
+import {OpenSourcePropsList} from '../../../data/me/opensource'
 import './me-opensource.scss'
 
-export interface OpenSourceProps {
+interface OpenSourceProps {
     emoji: any,
     title: string,
     new?: boolean

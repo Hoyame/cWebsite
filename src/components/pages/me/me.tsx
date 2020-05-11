@@ -29,7 +29,7 @@ class Me extends Component {
           <article>
             <div className = "articles">
               <h2 className = "articles-title">Open Source Projects
-                <Link to={'/articles'} className = "articles-button">View All</Link>
+                <Link to={'/opensource'} className = "articles-button">View All</Link>
               </h2>
             </div>
             <OpenSourceList />
