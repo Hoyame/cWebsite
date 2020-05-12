@@ -9,7 +9,9 @@
   "scripts": {
     "webpack-dev-server": "webpack-dev-server",
     "dev": "webpack-dev-server --mode=development",
-    "prod": "webpack --mode=production"
+    "prod": "webpack --mode=production",
+    "server": "node server.js"
+
   },
   "keywords": [],
   "author": "",
