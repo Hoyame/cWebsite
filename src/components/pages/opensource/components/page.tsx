@@ -22,7 +22,7 @@ const PageOpenSourceProps : IPageOpenSource[] = [
 /////////////////////////////////////////////////////
 
 
-const IPageOpenSource: React.FC<IPageOpenSource> = (props: IPageOpenSource) => {  
+const PageOpenSource: React.FC<IPageOpenSource> = (props: IPageOpenSource) => {  
    return ( 
       <div>
          <a>
@@ -40,7 +40,7 @@ const IPageOpenSource: React.FC<IPageOpenSource> = (props: IPageOpenSource) => {
 const getPageOpenSource = () => {
    return PageOpenSourceProps.map((item, k) => {
        return (
-           <IPageOpenSource {...item} />
+           <PageOpenSource {...item} />
        )
    })
 }

@@ -21,7 +21,6 @@ class OpenSource extends Component {
             <p className = "opensource-head-container-id">{githubID}</p>
             <p className = "opensource-head-container-link">{githubLink}</p>
             <div className = "opensource-head-container-new">GitHub</div>
-
           </div>
           <PageOpenSourceList />
         </div>
