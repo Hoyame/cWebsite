@@ -1,18 +1,4 @@
-export interface OpenSourceProps {
-    emoji: any,
-    title: string,
-    new?: boolean
-}
-
-export interface PageOpenSourceProps {
-    emoji: any,
-    title: string,
-    new?: boolean,
-    description?: string,
-    link?: string
-}
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////
+import { OpenSourceProps, PageOpenSourceProps } from "../interface/interfaces"
 
 export const OpenSourcePropsList : OpenSourceProps[] = [
     { emoji: "💌", title: "OC Projet 1", new: true },

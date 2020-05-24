@@ -20,7 +20,7 @@ class Me extends Component {
               de tout dire, ce que je fais, ce que je suis, etc.<br></br><br></br> Bonne investigation 😊</p>
             </div>
             <div className = "me-box">
-              <img src="https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256" className = "me-box-avatar" alt="Hoyame"></img>
+              <img src="https://cdn.discordapp.com/avatars/643225867929124874/f73c5d1ee1a4da7ecb7f0ab406fb096e.png?size=256" className = "me-box-avatar" alt="Hoyame"></img>
               <h3 className = "me-box-name">Hoyame</h3>
               <h6 className = "me-box-name2">@corazon2</h6>
             </div>

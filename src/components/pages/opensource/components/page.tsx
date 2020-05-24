@@ -4,7 +4,7 @@ import { Component } from 'react';
 import './page.scss'
 import '../opensource.scss'
 
-let imgTest = "https://cdn.discordapp.com/avatars/643225867929124874/7b03c008c7de478d7acd707ab28ccfef.png?size=256"
+let imgTest = "https://cdn.discordapp.com/avatars/643225867929124874/f73c5d1ee1a4da7ecb7f0ab406fb096e.png?size=256"
 
 interface IPageOpenSource {
    title?: string,
