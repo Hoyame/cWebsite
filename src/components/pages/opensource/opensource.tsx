@@ -14,15 +14,38 @@ let githubStatus = "Zboubi is back"
 let githubFollowers = 100
 let githubRepo = 3
 
+let username = 'corazon2'
 
 class OpenSource extends Component {
+  userData = null;
+
+  constructor(props) {
+    super(props);
+
+    this.getUser();
+  }
+  
+  getUser = () => {
+    const userData = this.userData || null;
+
+    setTimeout( () => {
+      fetch(`http://api.github.com/users/${username}`)
+      .then(response => response.json())
+      .then(data => {
+          this.userData = data
+          console.log(this.userData)
+      })
+    }, 1000)
+  }
+
+
   render() {
     return (
         <div>
           <h1 className = "opensource-head-title">OpenSource</h1>
 
           <div className = "opensource-head-container">
-            <img src = {githubImg} className = "opensource-head-container-img"></img>
+            <img src = {this.userData.avatar_url} className = "opensource-head-container-img"></img>
             <p className = "opensource-head-container-text">{githubName}</p>
             <p className = "opensource-head-container-id">{githubID}</p>
             
