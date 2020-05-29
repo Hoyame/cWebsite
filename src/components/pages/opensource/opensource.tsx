@@ -9,6 +9,8 @@ let githubName = "Hoyame Z."
 let githubLink = "https://github.com/corazon2"
 let githubID = "@corazon2"
 
+let githubStatus = "Zboubi is back"
+
 let githubFollowers = 100
 let githubRepo = 3
 
@@ -23,8 +25,27 @@ class OpenSource extends Component {
             <img src = {githubImg} className = "opensource-head-container-img"></img>
             <p className = "opensource-head-container-text">{githubName}</p>
             <p className = "opensource-head-container-id">{githubID}</p>
+            
+            <div className = "opensource-head-container-languages">
+              <img src = "https://cdn.discordapp.com/app-assets/383226320970055681/565944799576719366.png" className = "opensource-head-container-languages-img"></img>
+              <img src = "https://cdn.discordapp.com/app-assets/383226320970055681/565945350515589235.png" className = "opensource-head-container-languages-img"></img>
+              <img src = "https://cdn.discordapp.com/app-assets/383226320970055681/565945769320775680.png" className = "opensource-head-container-languages-img"></img>
+              <img src = "https://cdn.discordapp.com/app-assets/383226320970055681/565945350897008640.png" className = "opensource-head-container-languages-img"></img>
+              <img src = "https://cdn.discordapp.com/app-assets/383226320970055681/565944799455346703.png" className = "opensource-head-container-languages-img"></img>
+              
+            </div>
+
+
+            <div className = "opensource-head-container-followers">Followers: 10 </div>
+            <div className = "opensource-head-container-following">Following: 5</div>
+            <div className = "opensource-head-container-repositories">Repo: 2</div>
+            <div className = "opensource-head-container-link">GitHub</div>
+
+            {/* 
+            <p className = "opensource-head-container-id">{githubID}</p>
             <p className = "opensource-head-container-link">{githubLink}</p>
             <div className = "opensource-head-container-new">GitHub</div>
+          */}
             
           </div>
           <PageOpenSourceList />
