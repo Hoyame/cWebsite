@@ -3,24 +3,10 @@ import { Component } from 'react';
 
 import './page.scss'
 import '../opensource.scss'
-
-let imgTest = "https://cdn.discordapp.com/avatars/643225867929124874/f73c5d1ee1a4da7ecb7f0ab406fb096e.png?size=256"
-
-interface IPageOpenSource {
-   title?: string,
-   img?: any,
-   description?: any,
-   new?: boolean
-}
-
-const PageOpenSourceProps : IPageOpenSource[] = [
-   { title: 'Repo 1', img: imgTest, description: "Description du repo 1", new: true },
-   { title: 'Repo 2', img: imgTest, description: "Description du repo 2", new: true },
-   { title: 'Repo 3', img: imgTest, description: "Description du repo 3", new: true },
-]
+import { IPageOpenSource } from '../../../data/interface/interfaces';
+import { PageOpenSourceProps } from '../../../data/me/opensource';
 
 /////////////////////////////////////////////////////
-
 
 const PageOpenSource: React.FC<IPageOpenSource> = (props: IPageOpenSource) => {  
    return ( 

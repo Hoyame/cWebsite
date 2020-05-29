@@ -1,10 +1,10 @@
-export interface ArticlesProps {
+export interface IArticlesProps {
    img: any,
    title: string,
    new?: boolean
 }
 
-export interface PageArticlesProps {
+export interface IPageArticlesProps {
    img: any,
    title: string,
    new?: boolean,
@@ -12,16 +12,23 @@ export interface PageArticlesProps {
    link?: string
 }
 
-export interface OpenSourceProps {
+export interface IOpenSourceProps {
    emoji: any,
    title: string,
    new?: boolean
 }
 
-export interface PageOpenSourceProps {
+export interface IPageOpenSourceProps {
    emoji: any,
    title: string,
    new?: boolean,
    description?: string,
    link?: string
+}
+
+export interface IPageOpenSource {
+   title?: string,
+   img?: any,
+   description?: any,
+   new?: boolean
 }

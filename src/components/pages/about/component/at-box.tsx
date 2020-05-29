@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Component } from 'react';
 import './at-box.scss'
 
-let imgTest = "https://cdn.discordapp.com/avatars/643225867929124874/f73c5d1ee1a4da7ecb7f0ab406fb096e.png?size=256"
+let imgTest = "https://cdn.discordapp.com/avatars/643225867929124874/c09ae5e79244d21b4c40d504c500446c.webp?size=256"
 
 interface IBoxAt {
    img?: any,

@@ -4,10 +4,14 @@ import { Component } from 'react';
 import './opensource.scss'
 import PageOpenSourceList from './components/page'
 
-let githubImg = "https://cdn.discordapp.com/avatars/643225867929124874/f73c5d1ee1a4da7ecb7f0ab406fb096e.png?size=256"
+let githubImg = "https://cdn.discordapp.com/avatars/643225867929124874/c09ae5e79244d21b4c40d504c500446c.webp?size=256"
 let githubName = "Hoyame Z."
 let githubLink = "https://github.com/corazon2"
 let githubID = "@corazon2"
+
+let githubFollowers = 100
+let githubRepo = 3
+
 
 class OpenSource extends Component {
   render() {
@@ -21,6 +25,7 @@ class OpenSource extends Component {
             <p className = "opensource-head-container-id">{githubID}</p>
             <p className = "opensource-head-container-link">{githubLink}</p>
             <div className = "opensource-head-container-new">GitHub</div>
+            
           </div>
           <PageOpenSourceList />
         </div>
