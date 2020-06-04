@@ -9,7 +9,6 @@
   },
   "keywords": [],
   "author": "Hoyame Z.",
-  "license": "MIT",
   "devDependencies": {
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.7",

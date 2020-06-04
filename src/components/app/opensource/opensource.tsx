@@ -1,21 +1,21 @@
 import * as React from 'react';
 import { Component } from 'react';
 
-import './opensource.scss'
-import PageOpenSourceList from './components/page'
+import './opensource.scss';
+import PageOpenSourceList from './components/page';
 import Navigation from '../../navigation/navigation';
 
-let githubImg = "https://cdn.discordapp.com/avatars/643225867929124874/c09ae5e79244d21b4c40d504c500446c.webp?size=256"
-let githubName = "Hoyame Z."
-let githubLink = "https://github.com/corazon2"
-let githubID = "@corazon2"
+let githubImg = "https://cdn.discordapp.com/avatars/643225867929124874/c09ae5e79244d21b4c40d504c500446c.webp?size=256";
+let githubName = "Hoyame Z.";
+let githubLink = "https://github.com/corazon2";
+let githubID = "@corazon2";
 
-let githubStatus = "Zboubi is back"
+let githubStatus = "Zboubi is back";
 
-let githubFollowers = 100
-let githubRepo = 3
+let githubFollowers = 100;
+let githubRepo = 3;
 
-let username = 'corazon2'
+let username = 'corazon2';
 
 const OpensourcePage = () => {
   return (
