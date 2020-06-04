@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import PageArticlesList from './components/page'
-import Navigation from '../../navigation/navigation';
+import Navigation from '../navigation/navigation';
 
 import './articles.scss'
 
-const ArticlesPage = () =>  {
+const ArticlesPage = () => {
   return (
       <div>
         <Navigation />

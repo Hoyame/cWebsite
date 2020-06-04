@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navigation from '../../navigation/navigation';
+import Navigation from '../navigation/navigation';
 
 import './contact.scss'
 

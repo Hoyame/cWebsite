@@ -4,7 +4,7 @@ import { HashRouter, Route, Switch } from "react-router-dom";
 import "./App.scss";
 
 import routes from "../routes";
-import Navigation from './navigation/navigation';
+import Navigation from './app/navigation/navigation';
 
 const App = () => {
   const loading = () => (

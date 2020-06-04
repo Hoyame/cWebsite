@@ -3,7 +3,7 @@ import { Component } from 'react';
 
 import './opensource.scss';
 import PageOpenSourceList from './components/page';
-import Navigation from '../../navigation/navigation';
+import Navigation from '../navigation/navigation';
 
 let githubImg = "https://cdn.discordapp.com/avatars/643225867929124874/c09ae5e79244d21b4c40d504c500446c.webp?size=256";
 let githubName = "Hoyame Z.";

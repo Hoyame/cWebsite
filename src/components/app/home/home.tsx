@@ -6,7 +6,7 @@ import './style/articles.scss'
 
 import ArticlesList from './component/me-articles'
 import OpenSourceList from './component/me-opensource'
-import Navigation from '../../navigation/navigation'
+import Navigation from '../navigation/navigation'
 
 const HomePage = () => {
   return (
