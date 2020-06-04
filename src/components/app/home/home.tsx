@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { Component } from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import './style/summary.scss'
@@ -7,12 +6,14 @@ import './style/articles.scss'
 
 import ArticlesList from './component/me-articles'
 import OpenSourceList from './component/me-opensource'
+import Navigation from '../../navigation/navigation'
 
-
-class Me extends Component {
+class HomePage extends Component {
   render() {
     return (
       <div className = "pages-body">
+         <Navigation />
+
           <article className = "presentation">
             <div className = "summary">
               <h2 className = "summary-text">Yo, c'est moi 🙃</h2>
@@ -52,4 +53,4 @@ class Me extends Component {
   }
 }
 
-export default Me;
+export default HomePage;
