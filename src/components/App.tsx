@@ -13,22 +13,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <Suspense fallback={loading()}>
-        <HashRouter basename='/'>
-          <Switch>
-            {routes.map((route, idx) => {
-              return route.component ? (
-                <Route
-                  key={idx}
-                  path={route.path}
-                  exact={route.exact}
-                  render={(props: any) => <route.component {...props} />}
-                />
-              ) : null;
-            })}
-          </Switch>
-        </HashRouter>
-      </Suspense>
+      <h3>En cours de creation</h3>
     </div>
   );
 };
