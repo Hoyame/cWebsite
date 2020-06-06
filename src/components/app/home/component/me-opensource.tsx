@@ -27,7 +27,7 @@ const IOpenSource: React.FC<OpenSourceProps> = (props: OpenSourceProps) => {
 const getOpenSource = () => {
     return OpenSourcePropsList.map((item, k) => {
         return (
-            <IOpenSource {...item} />
+            <IOpenSource key={k} {...item} />
         )
     })
 }

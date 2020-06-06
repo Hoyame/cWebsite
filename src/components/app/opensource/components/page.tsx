@@ -26,7 +26,7 @@ const PageOpenSource: React.FC<IPageOpenSource> = (props: IPageOpenSource) => {
 const getPageOpenSource = () => {
    return PageOpenSourceProps.map((item, k) => {
        return (
-           <PageOpenSource {...item} />
+           <PageOpenSource key={k} {...item} />
        )
    })
 }

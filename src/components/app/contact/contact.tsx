@@ -6,7 +6,6 @@ import './contact.scss'
 const ContactPage = () => {
   return (
       <div>
-        <Navigation />
         <h2>Contact</h2>
       </div>
   );

@@ -11,8 +11,6 @@ import Navigation from '../navigation/navigation'
 const HomePage = () => {
   return (
     <div className = "pages-body">
-       <Navigation />
-
         <article className = "presentation">
           <div className = "summary">
             <h2 className = "summary-text">Yo, c'est moi 🙃</h2>

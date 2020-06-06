@@ -27,7 +27,7 @@ const IArticles: React.FC<ArticlesProps> = (props: ArticlesProps) => {
 const getArticles = () => {
     return articlesPropsList.map((item, k) => {
         return (
-            <IArticles {...item} />
+            <IArticles key={k} {...item} />
         )
     })
 }

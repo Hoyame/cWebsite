@@ -25,6 +25,10 @@ module.exports = {
                 loader: 'ts-loader'
             },
             {
+                test: /\.(woff|woff2|eot|ttf|otf)$/,
+                use: 'file-loader',
+            },
+            {
                 test: /.(png|jpg|jpeg|gif|svg)$/,
                 loader: 'file-loader'
             }
