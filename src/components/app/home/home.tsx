@@ -23,16 +23,7 @@ const HomePage = () => {
             <h6 className = "me-box-name2">@corazon2</h6>
           </div>
         </article>
-
-        <article>
-          <div className = "articles">
-            <h2 className = "articles-title">Articles
-              <Link to={'/articles'} className = "articles-button">View All</Link>
-            </h2>
-            <ArticlesList />
-          </div>
-        </article>
-
+        
         <article>
           <div className = "articles">
             <h2 className = "articles-title">Open Source Projects
