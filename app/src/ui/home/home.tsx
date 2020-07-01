@@ -48,15 +48,7 @@ const HomePage = () => {
 
           </div>
         </article>
-        <article>
-          <div className = "articles">
-            <h2 className = "articles-title">Open Source Projects
-              <Link to={'/opensource'} className = "articles-button">View All</Link>
-            </h2>
-            <OpenSourceList />
-          </div>
-        </article>
-
+       
         <article>
         <div className = "separateur"></div>
       </article>
