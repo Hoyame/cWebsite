@@ -14,11 +14,9 @@ const GitHubPage = () => {
       .then(data => data.json().then( json => setGitHubData(json)))    
   }, [])   
 
-
-
   if (gitHubData === null) {
     return (
-      <div>Hacking in progress dans le succeful....</div>
+      <div>En attente de github...</div>
     );
   }  
 
