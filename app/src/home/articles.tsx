@@ -1,7 +1,7 @@
 import React from 'react';
 import { Component, useState } from 'react';
 
-import '../../../styles/home/me-articles.scss'
+import '../../styles/home/me-articles.scss'
 
 interface IArticlesProps {
     img: any,

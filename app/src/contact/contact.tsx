@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from '../navigation/navigation';
 
-import '../../../styles/contact/contact.scss'
+import '../../styles/contact/contact.scss'
 
 const ContactPage = () => {
   return (

@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import routes from "../static/routes";
-import Navigation from '../../app/src/ui/navigation/navigation';
+import Navigation from './navigation/navigation';
 import styled, { createGlobalStyle } from 'styled-components';
 
 import "../styles/App.scss";

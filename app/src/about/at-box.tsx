@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Component } from 'react';
-import '../../../styles/about/at-box.scss'
+import '../../styles/about/at-box.scss'
 
 let imgTest = "https://cdn.discordapp.com/avatars/643225867929124874/c09ae5e79244d21b4c40d504c500446c.webp?size=256"
 

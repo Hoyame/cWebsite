@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Component } from 'react';
 
-import '../../../styles/about/about.scss'
+import '../../styles/about/about.scss'
 
 const AboutPage = () => {
     return (

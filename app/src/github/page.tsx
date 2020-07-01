@@ -1,8 +1,8 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-import '../../../styles/opensource/page.scss'
-import '../../../styles/opensource/opensource.scss'
+import '../../styles/opensource/page.scss'
+import '../../styles/opensource/opensource.scss'
 
 let imgTest = "https://cdn.discordapp.com/avatars/643225867929124874/c09ae5e79244d21b4c40d504c500446c.webp?size=256"
 

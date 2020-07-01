@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import PageOpenSourceList from './page';
 
-import '../../../styles/opensource/opensource.scss';
+import '../../styles/opensource/opensource.scss';
 
 let username = 'corazon2';
 

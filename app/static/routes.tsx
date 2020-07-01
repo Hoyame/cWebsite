@@ -1,11 +1,11 @@
 import React from 'react';
 
-const HomePage = React.lazy(() => import('../../app/src/ui/home/home'));
+const HomePage = React.lazy(() => import('../src/home/home'));
 //const OpensourcePage = React.lazy(() => import('../src/ui/github/github'));
-const AboutPage = React.lazy(() => import('../../app/src/ui/about/about'));
-const ContactPage = React.lazy(() => import('../../app/src/ui/contact/contact'));
-const GitHubPage = React.lazy(() => import('../../app/src/ui/github/github'));
-const CvPage = React.lazy(() => import('../../app/src/ui/cv/cv'));
+const AboutPage = React.lazy(() => import('../src/about/about'));
+const ContactPage = React.lazy(() => import('../src/contact/contact'));
+const GitHubPage = React.lazy(() => import('../src/github/github'));
+const CvPage = React.lazy(() => import('../src/cv/cv'));
 
 
 const routes = [
