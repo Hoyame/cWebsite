@@ -1,9 +1,9 @@
 import React from 'react';
 import NavBarComponent from './navbar';
+import routesCV from './routes';
 import { HashRouter, Route, Switch } from "react-router-dom";
 
 import '../../../styles/cv/cv.scss'
-import routesCV from './routes';
 
 const CvPage = () => {
 

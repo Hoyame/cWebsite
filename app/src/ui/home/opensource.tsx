@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { Component, useState } from 'react';
 
-import {OpenSourcePropsList} from '../../interface/data'
 import '../../../styles/home/me-opensource.scss'
 
 interface OpenSourceProps {
@@ -23,17 +22,11 @@ const OpenSourceList = () => {
         );
     };
     
-    const getOpenSource = () => {
-        return OpenSourcePropsList.map((item, k) => {
-            return (
-                <IOpenSource key={k} {...item} />
-            )
-        })
-    }
+ 
 
     return (
         <div className="opensource-box">
-            {getOpenSource()}
+            
         </div>
     ); 
 }

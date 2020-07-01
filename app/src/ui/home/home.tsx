@@ -30,8 +30,7 @@ const HomePage = () => {
             <p className = "summary-text-p">Bon je pense que vous savez comment je m'appele, dans ces paragraphes 
             que j'ecris en ecoutant SCH je vais vous racconter ma vie, donc si vous etes pas interessées, pas la 
             peine de lire, descendez :) , je suis née le 10/06/2004 en italie, c'est en italie que j'ai passée 10 
-            ans de ma vie, c'est la bas que j'ai trouvée ma passion, le pc, je fesais du word a 5ans omegaLUUUUUL
-            mais j'aimais bien ça, du coup je continuais, après quand je suis venue en france, je n'avais pas de pc, 
+            ans de ma vie, c'est la bas que j'ai trouvée ma passion, le pc, du coup je continuais, après quand je suis venue en france, je n'avais pas de pc, 
             en 2016 ma mere ma acheter une ps3, 4 mois après ma mere est tombée malade, du coup j'etais au foyer pendant
             un an sans tel ni ps3, la GALEREEEEEEE, ensuite après 7 mois d'attente sans la voir, elle est revenu soignée,
             la j'ai eu la ps4 mais 2 mois après elle est retombée malade, du coup j'ai été placée en famille d'acceuil,

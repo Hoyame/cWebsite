@@ -1,10 +1,24 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { IPageOpenSource } from '../../interface/interfaces';
-import { PageOpenSourceProps } from '../../interface/data';
 
 import '../../../styles/opensource/page.scss'
 import '../../../styles/opensource/opensource.scss'
+
+let imgTest = "https://cdn.discordapp.com/avatars/643225867929124874/c09ae5e79244d21b4c40d504c500446c.webp?size=256"
+
+interface IPageOpenSource {
+   title?: string,
+   img?: any,
+   description?: any,
+   new?: boolean,
+   language?: string
+}
+
+const PageOpenSourceProps : IPageOpenSource[] = [
+   { title: 'Repo 1', img: imgTest, description: "Description du repo 1", new: true },
+   { title: 'Repo 2', img: imgTest, description: "Description du repo 2", new: true },
+   { title: 'Repo 3', img: imgTest, description: "Description du repo 3", new: true },
+]
 
 
 const languagesImg = {

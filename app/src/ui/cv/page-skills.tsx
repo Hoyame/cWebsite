@@ -1,6 +1,5 @@
 import React from 'react';
 
-import '../../../styles/cv/p-competences.scss'
 
 interface IPageContent {
    year: string;
@@ -11,7 +10,7 @@ const PageContent: IPageContent[] = [
    { year: '2010 - 2014', content: 'Ecole Primaire Italie' },
 ]
 
-const CompetencesSPage = () => {
+const SkillsPage = () => {
    const PageContentProps: React.FC<IPageContent> = (props: IPageContent) => {
       return (
          <div className="cv-content-props">
@@ -41,4 +40,4 @@ const CompetencesSPage = () => {
    );
 }
 
-export default CompetencesSPage;
+export default SkillsPage;

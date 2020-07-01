@@ -4,7 +4,7 @@ import routes from "../static/routes";
 import Navigation from '../../app/src/ui/navigation/navigation';
 import styled, { createGlobalStyle } from 'styled-components';
 
-import "./App.scss";
+import "../styles/App.scss";
 
 const App = () => {
   const loading = () => (

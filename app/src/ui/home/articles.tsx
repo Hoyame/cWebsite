@@ -1,16 +1,21 @@
-import * as React from 'react';
+import React from 'react';
 import { Component, useState } from 'react';
 
-import {articlesPropsList} from '../../interface/data'
 import '../../../styles/home/me-articles.scss'
 
-interface ArticlesProps {
+interface IArticlesProps {
     img: any,
     title: string,
     new?: boolean
 }
 
-const IArticles: React.FC<ArticlesProps> = (props: ArticlesProps) => {  
+export const articlesPropsList : IArticlesProps[] = [
+    { img: "https://cdn.discordapp.com/avatars/643225867929124874/c09ae5e79244d21b4c40d504c500446c.webp?size=256", title: "Projet 1", new: true },
+    { img: "https://cdn.discordapp.com/avatars/643225867929124874/c09ae5e79244d21b4c40d504c500446c.webp?size=256", title: "Projet 2" },
+    { img: "https://cdn.discordapp.com/avatars/643225867929124874/c09ae5e79244d21b4c40d504c500446c.webp?size=256", title: "Projet 3" },
+]
+
+const IArticles: React.FC<IArticlesProps> = (props: IArticlesProps) => {  
     return ( 
         <a>
             <div className = "articles-container">
