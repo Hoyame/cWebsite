@@ -1,0 +1,49 @@
+.opensource-container:hover {
+    background-color: rgba(56, 56, 56, 0.589);
+}
+
+.opensource-container {
+    margin-top: 10px;
+    border-radius: 2.5%;
+    height: 52.5px;
+    width: 800px;
+    background-color: rgba(22, 21, 21, 0.007);
+    transition-duration: 300ms;
+    border-radius: 6px;
+}
+
+.opensource-container-text {
+    margin-top: -56px;
+    background-color: #00000000;
+    color: #868686;
+    font-size: 16px;
+    margin-left: 58px;
+    font-weight: 500;
+}
+
+.opensource-container-img {
+    margin-top: 8px;
+    margin-left: 12px;
+    font-size: 26px;
+    display: inline-block;
+
+    background-color: #00000000;
+
+}
+
+.opensource-container-new {
+    margin-top: -42px;
+    margin-left: 737.5px;
+    margin-right: 15px;
+    border-radius: 6px;
+    color: #fb8600;
+    padding: .1rem 0.55rem;
+    background-color: rgba(22, 21, 21, 0.589);
+}
+
+.opensource-separator {
+    margin-top: 0.5px;
+    height: 0.2px;
+    width: 500px;
+    background-color: #fff;
+}

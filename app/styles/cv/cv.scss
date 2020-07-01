@@ -1,0 +1,70 @@
+.cv-component {
+   position: absolute;
+
+   height: 700px;
+   width: 800px;
+
+   border-radius: 10px;
+   background-color: rgb(43, 43, 43) !important;
+}
+
+.cv-title-page-component {
+   position: absolute;
+   height: 50px;
+   width: 150px;
+
+   margin-top: 15px;
+   margin-left: 15px;
+
+   border-radius: 7.5px;
+   background-color: rgb(219, 219, 219);
+}
+
+.cv-title-page-title {
+   background-color: transparent;
+   font-size: 22.5px;
+   text-align: center;
+   margin-top: 8px;
+   color: rgb(48, 48, 48);
+}
+
+.cv-content-page {
+   position: absolute;
+   top: 130px;
+   left: 15px;
+}
+
+.cv-content-props {
+   display: flex;
+   flex-direction: row;
+
+   margin-top: -35px;
+
+   background-color: rgb(43, 43, 43) !important;
+}
+
+.cv-content-props-years {
+   font-size: 25px;
+
+   color: rgb(175, 175, 175);
+   background-color: rgb(43, 43, 43) !important;
+}
+
+.cv-content-props-separator {
+   margin-top: 22.5px;
+
+   margin-left: 10px;
+   margin-right: 10px;
+
+   font-size: 25px;
+
+   color: rgb(175, 175, 175);
+   background-color: rgb(43, 43, 43) !important;
+}
+
+.cv-content-props-content {
+   font-size: 25px;
+
+   color: rgb(175, 175, 175);
+   background-color: rgb(43, 43, 43) !important;
+}

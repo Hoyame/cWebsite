@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+   font-family: 'Jost', sans-serif;
+}
+
+.cv-nav {
+   display: flex;
+   margin-left: -50px;
+}
+
+.cv-nav-text:hover {
+   color: rgba(255, 255, 255, 0.89);
+}
+
+.cv-nav-text {
+   color: rgb(255, 255, 255);
+   font-size: 1.25rem;
+   text-decoration: none;
+   transition-duration: 565ms;
+}
+
+.cv-nav-links {
+   margin-left: 25%;
+}
+
+.cv-nav-button:hover {
+   background-color: rgb(148, 147, 147);
+   color: rgba(236, 236, 236, 0.836);
+}
+
+.cv-nav-button {
+   font-size: 1.25rem;
+   text-decoration: none;
+   padding: .50rem;
+   margin: 0 .25rem;
+   color: rgb(48, 48, 48);
+   line-height: 4.5;
+   text-align: center;
+   border-radius: 6px;
+   transition-duration: 565ms;
+   background-color: rgb(219, 219, 219);
+}
