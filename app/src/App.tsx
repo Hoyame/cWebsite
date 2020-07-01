@@ -14,6 +14,7 @@ const App = () => {
   return (
     <div className="color">
       <div className="container">
+        <div className="message-one">En développement</div>
         <Suspense fallback={loading()}>
           <HashRouter basename='/'>
             <Navigation />
