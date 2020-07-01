@@ -6,11 +6,33 @@ import { PageOpenSourceProps } from '../../interface/data';
 import '../../../styles/opensource/page.scss'
 import '../../../styles/opensource/opensource.scss'
 
+
+const languagesImg = {
+   "TypeScript": "https://cdn.discordapp.com/app-assets/383226320970055681/565945350515589235.png",
+   "Lua": "https://cdn.discordapp.com/app-assets/383226320970055681/565944800105332777.png",
+   "JavaScript": "https://cdn.discordapp.com/app-assets/383226320970055681/565944799576719366.png",
+   "C++": "https://cdn.discordapp.com/app-assets/383226320970055681/565944082510249984.png",
+   "C#": "https://cdn.discordapp.com/app-assets/383226320970055681/565944082329763843.png",
+   "Visual Basic .NET": "https://cdn.discordapp.com/app-assets/383226320970055681/565945769421570048.png"
+}
+
+class languages {
+   myMap: Map<String, String> = new Map([
+      ["TypeScript", "https://cdn.discordapp.com/app-assets/383226320970055681/565945350515589235.png"], 
+      ["Lua", "https://cdn.discordapp.com/app-assets/383226320970055681/565944800105332777.png"]
+   ]);
+   static myMap: any;
+}
+
 const PageOpenSource: React.FC<IPageOpenSource> = (props: IPageOpenSource) => {  
+   const getLanguage = (arg: String): String => {
+      return languages.myMap.get(arg);
+   }
+
    return ( 
       <a>
          <div className = "page-opensource-container">
-            <img src = {props.img} className = "page-opensource-container-img"></img>
+            <img src = {languages.myMap.get(props.language)} className = "page-opensource-container-img"></img>
             <div className="page-opensource-container-content">
                <p className = "page-opensource-container-text">{props.title}</p>
                {props.description ? <p className = "page-opensource-container-description">{props.description}</p> : false}
@@ -27,7 +49,7 @@ const PageOpenSourceList: React.FC = () => {
    useEffect( () => {
       fetch(`https://api.github.com/users/hoyame/repos`)
         .then(data => data.json().then( json => setRepos(json.map((j:any) => ({title: j.name, description: j.description, img: 'https://cdn.discordapp.com/avatars/643225867929124874/c09ae5e79244d21b4c40d504c500446c.webp?size=256'})))))    
-    }, [])
+   }, [])
 
    const getPageOpenSource = () => {
       return repos.map((item, k) => <PageOpenSource key={k} {...item} />);

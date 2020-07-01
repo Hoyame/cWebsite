@@ -23,12 +23,14 @@ export interface IPageOpenSourceProps {
    title: string,
    new?: boolean,
    description?: string,
-   link?: string
+   link?: string,
+   language?: string
 }
 
 export interface IPageOpenSource {
    title?: string,
    img?: any,
    description?: any,
-   new?: boolean
+   new?: boolean,
+   language?: string
 }
