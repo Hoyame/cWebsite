@@ -26,21 +26,19 @@ const HomePage = () => {
         <article>
           <div className = "articles">
             <h2 className = "summary-text">Mon "Histoire" ⏳</h2>
-
-            <p className = "summary-text-p">Bon je pense que vous savez comment je m'appelle, dans ces paragraphes 
-            que j'écris en écoutant SCH je vais vous raconter ma vie, donc si vous êtes pas intéressées, pas la 
-            peine de lire, descendez :) , je suis née le 10/06/2004 en Italie, c'est en Italie que j'ai passée 10 
-            ans de ma vie, en 2019 je me suis intéressée au serveur gta rp, 
-            du coup j'ai lancer mon serveur bluevinity, qui après 8 mois, a été vendu par moi car on avais plus de joueurs
-            a force de se faire ddos jour et nuit, sans solutions, j'en avais marre, ensuite 4 mois après j'ai voulu faire un 
-            framework pour le serveur fivem de mon ami Jibril, après 2 mois, j'ai abandonnée car je ne voulais pas perdre de
-            temps pour un truc qui n'étais même pas sur de marcher, un mois après j'ai vu le pPhone, j'ai aimée le concept,
-            c'est la que j'ai connu react et William qui m'a tout appris sur le dev web, car jusqu'à ce jour la, j'en avais 
-            jamais fait, c'est depuis ce jour la que je fait du dev web, il y'a beaucoup de choses que je dois encore apprendre
-            mais je suis motivée :). Voila un bon gros résumée de mon histoire :smile:
-            
+            <p className = "summary-text-p">
+              Bon je pense que vous savez comment je m'appelle, dans ces paragraphes 
+              que j'écris en écoutant SCH je vais vous raconter ma vie, donc si vous êtes pas intéressées, pas la 
+              peine de lire, descendez :) , je suis née le 10/06/2004 en Italie, c'est en Italie que j'ai passée 10 
+              ans de ma vie, en 2019 je me suis intéressée au serveur gta rp, 
+              du coup j'ai lancer mon serveur bluevinity, qui après 8 mois, a été vendu par moi car on avais plus de joueurs
+              a force de se faire ddos jour et nuit, sans solutions, j'en avais marre, ensuite 4 mois après j'ai voulu faire un 
+              framework pour le serveur fivem de mon ami Jibril, après 2 mois, j'ai abandonnée car je ne voulais pas perdre de
+              temps pour un truc qui n'étais même pas sur de marcher, un mois après j'ai vu le pPhone, j'ai aimée le concept,
+              c'est la que j'ai connu react et William qui m'a tout appris sur le dev web, car jusqu'à ce jour la, j'en avais 
+              jamais fait, c'est depuis ce jour la que je fait du dev web, il y'a beaucoup de choses que je dois encore apprendre
+              mais je suis motivée :). Voila un bon gros résumée de mon histoire :smile:
             </p>
-
           </div>
         </article>
        
