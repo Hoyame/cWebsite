@@ -5,6 +5,7 @@ import Navigation from './navigation/navigation';
 import styled, { createGlobalStyle } from 'styled-components';
 
 import "../styles/App.scss";
+import Footer from "./footer/footer";
 
 const App = () => {
   const loading = () => (
@@ -31,6 +32,7 @@ const App = () => {
             </Switch>
           </HashRouter>
         </Suspense>
+        <Footer/>
       </div>
     </div>
   );
