@@ -4,13 +4,13 @@ import { Component } from 'react';
 import '../../styles/about/about.scss'
 
 const AboutPage = () => {
-    return (
-      <React.Fragment>
-        <h2 className = "about-title">About</h2>
+  return (
+    <React.Fragment>
+      <h2 className = "about-title">About</h2>
 
 
-      </React.Fragment>
-    );
+    </React.Fragment>
+  );
 }
 
 export default AboutPage;

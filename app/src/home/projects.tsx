@@ -22,7 +22,7 @@ const IProjects: React.FC<IProjectsProps> = (props: IProjectsProps) => {
    return ( 
       <React.Fragment>
          <div className="projects">
-            <a className="projects-component" href={props.link} >
+            <a className="projects-component" target="_blank" href={props.link} >
                <div className="projects-emoji">{props.emoji}</div>
                <div className="projects-title">{props.title}</div>
                <div className="projects-description">{props.description}</div>
