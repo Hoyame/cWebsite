@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Component, useState } from 'react';
 
-import '../../styles/home/me-opensource.scss'
+import '../../styles/home/opensource.scss'
 
 interface OpenSourceProps {
     emoji: any,
