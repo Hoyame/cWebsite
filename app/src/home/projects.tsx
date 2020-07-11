@@ -9,13 +9,13 @@ interface IProjectsProps {
    description: string;
 }
 
-export const projectsPropsList : IProjectsProps[] = [
-    { link : 'https://github.com/hoyame/Portfolio', emoji: '💾', title: "Porfolio", description: "Mon portfolio" },
-    { link : 'https://github.com/hoyame/Launcher-FiveM', emoji: '🖥', title: "Launcher-FiveM", description: "Une application pour serveur fivem" },
-    { link : 'https://github.com/hoyame/React-TS-Boilerplate', emoji: '⚛', title: "React-TS-Boilerplate", description: "Une template pour app react en .ts" },
-    { link : 'https://github.com/hoyame/FiveM-CCore-Framework', emoji: '🚧', title: "FiveM-CCore-Framework", description: "Un framework pour serveur fivem" },
-    { link : 'https://github.com/hoyame/FiveM-CCore-GM', emoji: '🏙', title: "FiveM-CCore-GM", description: "Un gamemode pour serveur fivem" },
-    { link : 'https://github.com/hoyame/FiveM-PScript', emoji: '🚟', title: "FiveM-PScript", description: "Des resources pour serveur fivem" },
+const projectsPropsList : IProjectsProps[] = [
+   { link: 'https://github.com/hoyame/Portfolio', emoji: '💾', title: "Porfolio", description: "Mon portfolio" },
+   { link: 'https://github.com/hoyame/Launcher-FiveM', emoji: '🖥', title: "Launcher-FiveM", description: "Une application pour serveur fivem" },
+   { link: 'https://github.com/hoyame/React-TS-Boilerplate', emoji: '⚛', title: "React-TS-Boilerplate", description: "Une template pour app react en .ts" },
+   { link: 'https://github.com/hoyame/FiveM-CCore-Framework', emoji: '🚧', title: "FiveM-CCore-Framework", description: "Un framework pour serveur fivem" },
+   { link: 'https://github.com/hoyame/FiveM-CCore-GM', emoji: '🏙', title: "FiveM-CCore-GM", description: "Un gamemode pour serveur fivem" },
+   { link: 'https://github.com/hoyame/FiveM-PScript', emoji: '🚟', title: "FiveM-PScript", description: "Des resources pour serveur fivem" },
 ]
 
 const IProjects: React.FC<IProjectsProps> = (props: IProjectsProps) => {  
