@@ -13,7 +13,7 @@ const HomePage = () => {
     <div className = "pages-body">
         <article className = "presentation">
           <div className = "summary">
-            <h2 className = "summary-text">Yo, c'est moi 🙃</h2>
+            <h2 className = "summary-text">Yo, moi c'est Hoyame 🙃</h2>
             <p className = "summary-text-p">Bienvenu sur mon portfolio, je vais essayer 
             de tout dire,<br></br> ce que je fais, ce que je suis, etc.<br></br><br></br> Bonne investigation 😊</p>
           </div>

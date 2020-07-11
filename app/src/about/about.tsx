@@ -7,8 +7,7 @@ const AboutPage = () => {
     return (
       <React.Fragment>
         <h2 className = "about-title">About</h2>
-        <h4 className = "about-title-h4">Atouts</h4>
-        <div className = "about-box"></div>
+
 
       </React.Fragment>
     );

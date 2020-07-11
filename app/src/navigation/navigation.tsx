@@ -19,7 +19,7 @@ const Navigation = () => {
         <Link to={'/about'} className="nav-button">About</Link>
         <Link to={''} onClick={() => redirectGithub()} className="nav-button">GitHub</Link>
         
-        <Link to={'/contact'} className="nav-button">Contact</Link>
+        { /* <Link to={'/contact'} className="nav-button">Contact</Link> */ }
         { /* <Link to={'/cv/scolaire'} className="nav-button">CV</Link> */ }
       </ul>
     </nav>
