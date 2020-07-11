@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import ArticlesList from './articles'
 import OpenSourceList from './opensource'
+import ProjectsList from './projects';
 import pepeKms from '../../assets/pp.png'
 
 import '../../styles/home/summary.scss'
@@ -40,9 +41,10 @@ const HomePage = () => {
               mais je suis motivée :). Voila un bon gros résumée de mon histoire :smile:
             </p>
           </div>
+          <div className = "separateur"></div>
         </article>
-       
         <article>
+        <ProjectsList />
         <div className = "separateur"></div>
       </article>
     </div>
