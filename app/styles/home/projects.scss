@@ -1,3 +1,7 @@
+* {
+   text-decoration: none;
+}
+
 .projects {
    height: 45px; 
    width: 800px;
@@ -34,7 +38,8 @@
    font-size: 1.5rem;
 
    margin-top: 5px;
-   
+   text-decoration: none !important;
+
    background-color: transparent;
 }
 
@@ -44,8 +49,9 @@
    
    margin-top: 7.5px;
    margin-left: 5px;
-
+   color: rgb(211, 211, 211);
    background-color: transparent;
+   text-decoration: none !important;
 
 }
 
@@ -58,6 +64,7 @@
 
    margin-top: 7.5px;
    //margin-left: auto;
+   text-decoration: none !important;
 
    background-color: transparent;
 
