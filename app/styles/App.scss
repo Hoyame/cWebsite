@@ -38,11 +38,24 @@
 }
 
 .message-one {
-   height: 25px;
+   height: 35px;
    width: 100%;
+   
+
 
    text-align: center;
-   margin-top: -10px;
+   margin-top: 10px;
 
    background-color: red;
+}
+
+.message-one-text {
+   font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Roboto,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+   font-weight: 600;
+   font-size: 20px;
+
+   margin-top: 15px;
+
+   background-color: transparent;
+
 }
