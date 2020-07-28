@@ -11,6 +11,7 @@ const Navigation = () => {
       <Link to={'/'} className="nav-text">Hoyame Zouhari</Link>
       <ul className="nav-links">
         { /* <Link to={'/about'} className="nav-button">About</Link>  */ }
+        <Link to={'/projets'} className="nav-button">Projets</Link>
         <a target="_blank" href="https://github.com/hoyame" className="nav-button">GitHub</a>
         
         { /* <Link to={'/contact'} className="nav-button">Contact</Link> */ }
