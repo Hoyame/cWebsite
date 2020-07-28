@@ -33,7 +33,7 @@ const Footer = () => {
                   <img className="footer-img" src={twitter}></img>
                </a>
 
-               <a target="_blank" href='https://www.twitch.tv/corazon2' className="footer-img-container">
+               <a target="_blank" href='https://www.twitch.tv/corazon0004' className="footer-img-container">
                   <img className="footer-img" src={twitch}></img>
                </a>
             </div>
