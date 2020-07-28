@@ -6,25 +6,22 @@ const AboutPage = React.lazy(() => import('../src/about/about'));
 const ContactPage = React.lazy(() => import('../src/contact/contact'));
 const GitHubPage = React.lazy(() => import('../src/github/github'));
 const CvPage = React.lazy(() => import('../src/cv/cv'));
+const ProjetPage = React.lazy(() => import('../src/projets/projets'))
 
-
-const routes = [
+    const routes = [
     {
         path: '/',
         component: HomePage,
         exact: true
     },
-
     {
         path: '/github',
         component: GitHubPage,
     },
-
     {
         path: '/about',
         component: AboutPage,
     },
-
     {
         path: '/contact',
         component: ContactPage,
@@ -32,7 +29,11 @@ const routes = [
     {
         path: '/cv',
         component: CvPage
-    }
+    },
+    {
+        path: '/projets',
+        component: ProjetPage
+    },
 ];
 
 export default routes;
