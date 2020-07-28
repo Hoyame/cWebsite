@@ -44,7 +44,8 @@ const HomePage = () => {
           <div className = "separateur"></div>
         </article>
         <article>
-        <ProjectsList />
+          <h2 className = "summary-text">Projets 🎈</h2>
+          <ProjectsList />
         <div className = "separateur"></div>
       </article>
     </div>
