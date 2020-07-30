@@ -22,7 +22,7 @@ const projectsPropsList: IProjectsProps[] = [
 ]
 
 const showcasePropsList: IProjectsProps[] = [
-   { link: 'https://github.com/hoyame/Portfolio', emoji: '📊', title: "Interface Banque", description: "Mon portfolio" },
+   { link: 'https://github.com/hoyame/Portfolio', emoji: '📊', title: "Interface Banque", description: "Une interface de banque pour GTALife" },
    { link: 'https://github.com/hoyame/Launcher-FiveM', emoji: '🕹', title: "Alynia Launcher", description: "Une application pour serveur fivem" },
    { link: 'https://github.com/hoyame/Launcher-FiveM', emoji: '🎮', title: "Atlantiss Launcher", description: "Une application pour serveur fivem" },
 ]
