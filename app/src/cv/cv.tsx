@@ -6,7 +6,6 @@ import { HashRouter, Route, Switch } from "react-router-dom";
 import '../../styles/cv/cv.scss'
 
 const CvPage = () => {
-
    return (
       <React.Fragment>
          <NavBarComponent />
