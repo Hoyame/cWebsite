@@ -20,7 +20,7 @@ const HomePage = () => {
           <div className = "me-box">
             <img src={pepeKms} className = "me-box-avatar" alt="Hoyame"></img>
             <h3 className = "me-box-name">Hoyame</h3>
-            <h6 className = "me-box-name2">@corazon2</h6>
+            <h6 className = "me-box-name2">@hoyame</h6>
           </div>
         </article>
         
