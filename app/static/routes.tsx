@@ -8,6 +8,7 @@ const GitHubPage = React.lazy(() => import('../src/github/github'));
 const CvPage = React.lazy(() => import('../src/cv/cv'));
 const ProjetPage = React.lazy(() => import('../src/projets/projets'))
 const ShopPage = React.lazy(() => import('../src/shop/shop'))
+const MyHeroesConfidentialityPage = React.lazy(() => import('../src/myheroes/conf'))
 
 
 const routes = [
@@ -39,6 +40,11 @@ const routes = [
     {
         path: '/shop',
         component: ShopPage
+    },
+
+    {
+        path: '/myheroes-confidentiality',
+        component: MyHeroesConfidentialityPage
     }
 ];
 
