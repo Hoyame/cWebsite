@@ -13,6 +13,7 @@ interface IProjectsProps {
 }
 
 const projectsPropsList: IProjectsProps[] = [
+   { link: 'https://github.com/hoyame/MyHero', emoji: '👬', title: "MyHeroes", description: "Application mobile de secours" },
    { link: 'https://github.com/hoyame/Portfolio', emoji: '💾', title: "Porfolio", description: "Mon portfolio" },
    { link: 'https://github.com/hoyame/Launcher-FiveM', emoji: '🖥', title: "Launcher-FiveM", description: "Une application pour serveur fivem" },
    { link: 'https://github.com/hoyame/React-TS-Boilerplate', emoji: '⚛', title: "React-TS-Boilerplate", description: "Une template pour app react en .ts" },
