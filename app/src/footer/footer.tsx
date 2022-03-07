@@ -18,7 +18,7 @@ const Footer = () => {
       <React.Fragment>
          <div className="footer">
             <div>
-               <a target="_blank" href='https://discord.gg/NKdSGr8' className="nav-button">Discord</a>
+               <a target="_blank" href='https://discord.gg/DwJFpmxNRt' className="nav-button">Discord</a>
                <a target="_blank" href='mailto:zou.hoyame@gmail.com' className="nav-button">Mail</a>
                <a target="_blank" href='https://steamcommunity.com/profiles/76561199057468916' className="nav-button">Steam</a>
         
